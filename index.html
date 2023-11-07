@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather api</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="search">
+            <input type="text" id="locationInput" placeholder="Enter a location or coordinates">
+            <button id="searchButton">Get Weather</button>
+        </div>
+        <div class="current-weather">
+            <h2>Current Weather</h2>
+            <div id="weatherIcon"></div>
+            <p><strong>Temperature:</strong> <span id="temperature"></span>&deg;C</p>
+            <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+            <p><strong>Wind Speed:</strong> <span id="windSpeed"></span> km/h</p>
+            <p><strong>Conditions:</strong> <span id="conditions"></span></p>
+        </div>
+        <label for="dropdown">Hourly Forecast</label>
+        <select name="" id="dropdown">
+          <option></option> 
+        </select>
+        <br>
+        <label for="dropdown2"> 3-Day-Forecast</label>
+        <select name="" id="dropdown2"></select>
+        <option value=""></option>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
