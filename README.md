@@ -1,10 +1,39 @@
-# Weekly-test-1
-## Hosted Link:- https://rohitdhawale07.github.io/Weekly-test-1/
 # Weather Forecast Web Application
+## Hosted Link:- https://rohitdhawale07.github.io/Weekly-test-1/
 
-Welcome to the Weather Forecast Web Application! This simple web application allows users to quickly retrieve weather information for a specific location. 
-It utilizes the RapidAPI service to fetch real-time weather data. 
+## Overview
+The Weather App is a simple web application that fetches weather data using an API based on user input. 
+Users can enter a location, and the app provides the current weather details along with hourly and 3-day forecasts.
 
+## Usage
+- Enter Location or Coordinates:
+Use the input field with the id locationInput to enter a location.
+- Get Current Weather:
+Click the "Get Weather" button (id: searchButton) to fetch and display the current weather for the specified location.
+- Current Weather Section:
+View the current weather details, including temperature, humidity, wind speed, and conditions in the "Current Weather" section.
+- Hourly Forecast Dropdown:
+Select a specific hour from the "Hourly Forecast" dropdown (id: dropdown) to view detailed weather information for that hour.
+- 3-Day Forecast Dropdown:
+Choose a date from the "3-Day Forecast" dropdown (id: dropdown2) to see the forecast for the selected day.
+
+## Prerequisites
+- Ensure you have an internet connection to fetch weather data from the API.
+
+## Code Structure
+- HTML: The structure of the web page is defined in index.html.
+- CSS: Styling is applied through the style.css file.
+- JavaScript: The functionality and API interactions are implemented in index.js.
+
+## API Key
+To fetch weather data, you might need an API key. Replace the placeholder in the index.js file with your actual API key.
+
+## Technologies Used
+- HTML5: Structure and layout of the web page.
+- CSS3: Styling for a clean and user-friendly interface.
+- JavaScript (ES6+): Fetching data from the API and manipulating the DOM.
+- Weather API: Utilizing a weather API for real-time weather data.
+  
 ## Getting Started
 
 Before you start using this application, you need to have a few things ready:
