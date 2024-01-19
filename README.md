@@ -1,5 +1,5 @@
 # Weather Forecast Web Application
-## Hosted Link:- https://rohitdhawale07.github.io/Weekly-test-1/
+## Hosted Link:- https://weekly-test-1-seven.vercel.app/
 
 ## Overview
 The Weather App is a simple web application that fetches weather data using an API based on user input. 
