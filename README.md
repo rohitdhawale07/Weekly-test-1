@@ -3,7 +3,7 @@
 
 ## Overview
 The Weather App is a simple web application that fetches weather data using an API based on user input. 
-Users can enter a location, and the app provides the current weather details along with hourly and 3-day forecasts.
+Users can enter a location.
 
 ## Usage
 - Enter Location or Coordinates:
