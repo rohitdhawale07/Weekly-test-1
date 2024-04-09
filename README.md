@@ -12,10 +12,7 @@ Use the input field with the id locationInput to enter a location.
 Click the "Get Weather" button (id: searchButton) to fetch and display the current weather for the specified location.
 - Current Weather Section:
 View the current weather details, including temperature, humidity, wind speed, and conditions in the "Current Weather" section.
-- Hourly Forecast Dropdown:
-Select a specific hour from the "Hourly Forecast" dropdown (id: dropdown) to view detailed weather information for that hour.
-- 3-Day Forecast Dropdown:
-Choose a date from the "3-Day Forecast" dropdown (id: dropdown2) to see the forecast for the selected day.
+
 
 ## Prerequisites
 - Ensure you have an internet connection to fetch weather data from the API.
@@ -66,10 +63,6 @@ Follow these steps to get weather information for your desired location:
     - Wind Speed
     - Weather Conditions
 
-4. **Hourly and Daily Forecasts**: Additionally, the application offers a detailed weather forecast:
-
-    - The "Hourly Forecast" dropdown displays the hourly weather forecast for the next 24 hours.
-    - The "Daily Forecast" dropdown provides a daily weather forecast for the next 3 days.
 
 ## Attribution
 
